@@ -504,7 +504,9 @@ margin-left: 10px;}
   font-weight: 500; }
 
 .hire {
-  padding: 2em;
+  padding: 1.5em 0;
+  background: #f9bf3f;
+  padding-bottom: 2em;
   background: #f9bf3f; }
   .hire h2 {
     line-height: 1.5; }
@@ -1606,4 +1608,8 @@ h3.subheading, h4 {
   background-color: #fff;
   border-radius: 5px;
   padding: 4px 0;
+}
+
+.hire p a {
+  margin: 0 10px;
 }
