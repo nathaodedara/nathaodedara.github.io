@@ -118,7 +118,7 @@ figure {
       transform: translateX(-300px);
       padding-top: 4em;
 	  background-color: #f2f3f7;
-        height: auto;
+        height: 100%;
       } }
   #colorlib-aside .author-img {
     width: 150px;
@@ -1535,7 +1535,7 @@ align-items: stretch;}
   transform: rotateZ(-45deg); }
 
 .colorlib-nav-toggle {
-  position: fixed;
+  position: absolute;
   left: -5px;
   top: 0px;
   z-index: 9999;
@@ -1612,4 +1612,8 @@ h3.subheading, h4 {
 
 .hire p a {
   margin: 0 10px;
+}
+
+@media screen and (max-width: 464px) {
+  /* Your CSS styles here */
 }
